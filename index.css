@@ -26,3 +26,8 @@ body {
     background: var(--color-1);
     border-radius: var(--radius);
 }
+
+img {
+    max-width: min(300px,30vw);
+    max-height: min(300px,30vh);
+}
