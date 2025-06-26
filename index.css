@@ -1,0 +1,28 @@
+:root {
+    font-family: 'Noto Sans', system-ui, sans-serif;
+
+    --color-1: rgb(112, 74, 136);
+    --color-2: rgb(8, 2, 14);
+    --color-3: rgb(248, 236, 255);
+
+    --radius: 15px;
+
+    color: var(--color-3);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background: var(--color-2);
+}
+
+.content {
+    width: min(800px, calc(100vw - 30px));
+    display: block;
+    padding: 10px;
+
+    background: var(--color-1);
+    border-radius: var(--radius);
+}
